@@ -114,7 +114,8 @@ input[disabled] {
 }
 .header .logo img {
   width: auto;
-  max-width: 150px;
+  max-width: 220px;
+  height: 48px;
 }
 
 .unsub-all {
