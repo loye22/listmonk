@@ -231,12 +231,24 @@ section {
     display: none;
   }
   .full {
-    max-height: 17px;
-    margin-top: 15px;
+    max-height: 36px;
+    margin-top: 0;
   }
   .favicon {
     margin-top: 12px;
     max-height: 24px;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  .brand-name {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: #111;
+    margin-left: 10px;
+    letter-spacing: -0.2px;
+    white-space: nowrap;
   }
 }
 

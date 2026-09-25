@@ -3,9 +3,10 @@
     <b-navbar :fixed-top="true" v-if="$root.isLoaded">
       <template #brand>
         <div class="logo">
-          <router-link :to="{ name: 'dashboard' }">
-            <img class="full" src="@/assets/logo.svg" alt="" />
+          <router-link :to="{ name: 'dashboard' }" style="display:flex;align-items:center;text-decoration:none;">
+            <img class="full" src="@/assets/logo.svg" alt="InboxNova" />
             <img class="favicon" src="@/assets/favicon.png" alt="" />
+            <span class="brand-name">InboxNova</span>
           </router-link>
         </div>
       </template>
