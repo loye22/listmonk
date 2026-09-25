@@ -1,0 +1,6 @@
+#TODO list 
+
+1. Prepare the CSV data into 4 CSVs and upload them to the app.
+2. Set up the SMTP server and connect to make sure it's not landing in spam.
+3. Connect the mail server with the Nova app.
+4. Connect with Amazon SES.
